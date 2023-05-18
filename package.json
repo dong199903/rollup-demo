@@ -1,0 +1,27 @@
+{
+  "name": "rollup_demo1",
+  "version": "1.0.0",
+  "description": "my rollup demo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup --config rollup.config.js"
+  },
+  "keywords": [],
+  "author": "zpDong",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "the-answer": "^1.0.0"
+  }
+}
